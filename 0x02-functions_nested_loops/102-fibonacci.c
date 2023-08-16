@@ -21,7 +21,7 @@ int main(void)
 		x = y;
 		y = z;
 		z = x + y;
-		if (counte < 50)
+		if (count < 50)
 		{
 			printf(", ");
 		}
