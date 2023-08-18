@@ -3,20 +3,20 @@
 /**
  * print_diagonal - prints diagonal line on the terminal
  *
- * @n: Number if times the diagonal should be printed
+ * @n: Number of times the diagonal should be printed
  */
 
 void print_diagonal(int n)
 {
-	int i;
-	int j;
+	int i, j;
 
 	if (n <= 0)
 	{
 		_putchar('\n');
-	} else
+	} 
+	else
 	{
-		for (i = 1; i <= n; i++)
+		for (i = 0; i < n; i++)
 		{
 			for (j = 0; j < i; j++)
 			{
