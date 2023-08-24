@@ -4,8 +4,9 @@
  *
  *@dest: destination string
  *@src: source string
+ *@n: Maximum number of letters from source string
  *
- *Return: returns destination string
+ * Return: returns destination string
  */
 
 char *_strncat(char *dest, char *src, int n);
