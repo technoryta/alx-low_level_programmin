@@ -2,7 +2,7 @@
 
 /**
  * print_c - prints char
- * @a: list input
+ * @ap: list input
  * Return: always 0
  */
 int print_c(va_list ap)
@@ -12,7 +12,7 @@ int print_c(va_list ap)
 }
 /**
  * print_i - prints int
- * @a: list input
+ * @ap: list input
  * Return: always 0
  */
 int print_i(va_list ap)
@@ -22,7 +22,7 @@ int print_i(va_list ap)
 }
 /**
  * print_f - prints float
- * @a: list input
+ * @ap: list input
  * Return: always 0
  */
 int print_f(va_list ap)
@@ -32,7 +32,7 @@ int print_f(va_list ap)
 }
 /**
  * print_s - prints string
- * @a: list input
+ * @ap: list input
  * Return: always 0
  */
 int print_s(va_list ap)
