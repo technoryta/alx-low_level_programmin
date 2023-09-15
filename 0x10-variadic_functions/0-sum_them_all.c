@@ -6,15 +6,15 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-	var_list ap;
-	int i;
+	va_list ap;
+	int i, sum;
 
 	sum = 0;
-	var_start(ap, n);
+	va_start(ap, n);
 	if (n > 0)
 		for (i = 0; i < n; i++)
 			sum += va_arg(ap, int);
-	var_end(ap);
+	va_end(ap);
 
 	return (sum);
 }
