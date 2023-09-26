@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * listint_len - prints number of elements in a linkedin list
+ * add_nodeint - prints number of elements in a linkedin list
  * @head: pointer to head node address
  * @n: the new integer to be added
  * Return: address of the new element
