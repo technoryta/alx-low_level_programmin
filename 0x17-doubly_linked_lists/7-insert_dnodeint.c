@@ -4,7 +4,7 @@
  * @h: header node
  * @idx: index
  * @n: data
- * Return - new node
+ * Return: new node
  */
 
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
